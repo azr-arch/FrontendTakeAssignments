@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --primary-bg: #d9eafdff;
-  --btn-bg: #4b98ecff;
-  --text: #444853ff;
-  --powder-blue: #a0c2e1ff;
-}
-
 .icon-style {
   @apply w-8 aspect-square text-btn-bg;
 }

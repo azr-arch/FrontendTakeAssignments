@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon-style {
+  @apply text-sm text-primary;
+}
+
+.readmore-btn {
+  @apply flex items-center justify-center rounded-2xl bg-white border border-solid border-darkBlue text-secondary text-[12px] font-bold px-3 py-2;
+}
+
+.popular {
+  position: absolute;
+  transform: translateY(-30%);
+  left: 0;
+  top: 40%;
+}
+
+.popular::after,
+.popular::before {
+  position: absolute;
+  /* top: 40%; */
+  left: -0.6rem;
+  /* transform: translateY(-30%); */
+  background-color: #373ae0;
+}
+
+.popular::after {
+  content: "Popular";
+  padding: 0.2rem 2rem;
+  height: auto;
+  border-radius: 5px;
+  color: white;
+  z-index: 99;
+}
+
+.popular::before {
+  content: "";
+  width: 0.6rem;
+  height: 30px;
+  top: 0.6rem;
+  z-index: 0;
+  border-bottom-left-radius: 50px;
+  background-color: #373ae0;
+}
