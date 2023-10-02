@@ -1,8 +1,28 @@
-# React + Vite
+# React Car Rental App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple car rental app built with React. It allows users to view available cars, search for cars by name, and navigate through the pages of car listings.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Car Listings**: Displays a list of available cars. Each car has an image, name, model, features, and price.
+- **Search**: Allows users to search for cars by name.
+- **Pagination**: Users can navigate through the pages of car listings.
+
+## Components
+
+The app is composed of several components:
+
+- `HomePage`: This is the main page of the app. It includes the `Search`, `CarContainer`, and `Pagination` components.
+- `Search`: This component includes a search bar that allows users to search for cars by name.
+- `CarContainer`: This component displays a list of cars. Each car is represented by a `Car` component.
+- `Car`: This component represents an individual car. It displays the car's image, name, model, features, and price.
+- `Pagination`: This component includes buttons that allow users to navigate through the pages of car listings.
+
+## Installation
+
+1. Clone this repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd sellerapp1`
+3. Install dependencies: `npm install`
+4. Start the app: `npm start`
+
+
