@@ -12,6 +12,11 @@ This is a simple car rental app built with React. It allows users to view availa
 - **Search**: Allows users to search for cars by name.
 - **Pagination**: Users can navigate through the pages of car listings.
 
+## Technology Stack
+
+- **ReactJS**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+
 ## Components
 
 The app is composed of several components:
